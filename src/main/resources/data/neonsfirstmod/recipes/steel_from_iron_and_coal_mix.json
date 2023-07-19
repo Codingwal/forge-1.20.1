@@ -2,10 +2,10 @@
     "type": "minecraft:blasting",
     "category": "misc",
     "cookingtime": 100,
-    "expierience": 0.7,
+    "experience": 0.7,
     "group": "steel",
-    "ingredients": {
-        "item": "neonsfirstmod:iron_and_coal_mix"
+    "ingredient": {
+        "item": "neonsfirstmod:iron_coal_mix"
     },
     "result": "neonsfirstmod:steel"
 }

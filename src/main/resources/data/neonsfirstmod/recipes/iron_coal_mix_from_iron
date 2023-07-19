@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+        {
+            "item": "neonsfirstmod:steel"
+        }
+    ],
+    "result": {
+        "item": "neonsfirstmod:iron_coal_mix"
+    }
+}
