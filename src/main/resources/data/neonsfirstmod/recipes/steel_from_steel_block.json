@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+        {
+            "item": "neonsfirstmod:steel_block"
+        }
+    ],
+    "result": {
+        "item": "neonsfirstmod:steel",
+        "count": 9
+    }
+}
