@@ -16,10 +16,10 @@ public class ModCreativeModeTabs {
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, NeonsFirstMod.MOD_ID);
 
     public static final RegistryObject<CreativeModeTab> NEONS_FIRST_MOD_TAB = CREATIVE_MODE_TABS.register("neons_first_mod_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.STEEL.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.STEEL_INGOT.get()))
             .title(Component.translatable("creativetab.neons_first_mod_tab"))
             .displayItems((pParameters, pOutput) -> {
-                pOutput.accept(ModItems.STEEL.get());
+                pOutput.accept(ModItems.STEEL_INGOT.get());
                 pOutput.accept(ModItems.IRON_COAL_MIX.get());
 
                 pOutput.accept(ModBlocks.STEEL_BLOCK.get());
