@@ -1,3 +1,7 @@
 {
-    "item.neonsfirstmod.steel": "Steel"
+    "item.neonsfirstmod.steel": "Steel",
+
+    "block.neonsfirstmod.steel_block": "Block of steel",
+
+    "creativetab.neons_first_mod_tab": "Neons First Mod Tab"
 }
