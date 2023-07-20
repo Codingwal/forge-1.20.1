@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "neonsfirstmod:item/unfinished_steel_ingot"
+    }
+}

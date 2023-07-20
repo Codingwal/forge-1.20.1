@@ -11,7 +11,7 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS,
             NeonsFirstMod.MOD_ID);
 
-    public static final RegistryObject<Item> IRON_COAL_MIX = ITEMS.register("iron_coal_mix", 
+    public static final RegistryObject<Item> UNFINISHED_STEEL_INGOT = ITEMS.register("unfinished_steel_ingot", 
             () -> new Item(new Item.Properties()));
             
     public static final RegistryObject<Item> STEEL_INGOT = ITEMS.register("steel_ingot", 

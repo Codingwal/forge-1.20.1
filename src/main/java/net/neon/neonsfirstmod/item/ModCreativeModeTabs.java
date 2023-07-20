@@ -20,8 +20,9 @@ public class ModCreativeModeTabs {
             .title(Component.translatable("creativetab.neons_first_mod_tab"))
             .displayItems((pParameters, pOutput) -> {
                 pOutput.accept(ModItems.STEEL_INGOT.get());
-                pOutput.accept(ModItems.IRON_COAL_MIX.get());
+                pOutput.accept(ModItems.UNFINISHED_STEEL_INGOT.get());
 
+                pOutput.accept(ModBlocks.REINFORCED_GLASS.get());
                 pOutput.accept(ModBlocks.STEEL_BLOCK.get());
             })
             .build());
