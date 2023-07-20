@@ -5,7 +5,7 @@
     "experience": 0.7,
     "group": "steel",
     "ingredient": {
-        "item": "neonsfirstmod:iron_coal_mix"
+        "item": "neonsfirstmod:unfinished_steel_ingot"
     },
     "result": "neonsfirstmod:steel_ingot"
 }
