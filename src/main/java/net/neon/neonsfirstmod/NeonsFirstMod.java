@@ -1,8 +1,5 @@
 package net.neon.neonsfirstmod;
 
-import net.minecraft.client.renderer.ItemBlockRenderTypes;
-import net.minecraft.client.renderer.RenderType;
-// import com.mojang.logging.LogUtils;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -19,16 +16,11 @@ import net.neon.neonsfirstmod.block.ModBlocks;
 import net.neon.neonsfirstmod.item.ModCreativeModeTabs;
 import net.neon.neonsfirstmod.item.ModItems;
 
-// import org.slf4j.Logger;
-
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(NeonsFirstMod.MOD_ID)
 public class NeonsFirstMod {
     // Define mod id in a common place for everything to reference
     public static final String MOD_ID = "neonsfirstmod";
-
-    // Directly reference a slf4j logger
-    // private static final Logger LOGGER = LogUtils.getLogger();
 
     public NeonsFirstMod() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
@@ -73,7 +65,7 @@ public class NeonsFirstMod {
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
-            ItemBlockRenderTypes.setRenderLayer(ModBlocks.REINFORCED_GLASS.get(), RenderType.translucent());
+            // ItemBlockRenderTypes.setRenderLayer(ModBlocks.REINFORCED_GLASS.get(), RenderType.translucent());
         }
     }
 }
