@@ -24,6 +24,7 @@ public class ModCreativeModeTabs {
 
                 pOutput.accept(ModBlocks.REINFORCED_GLASS.get());
                 pOutput.accept(ModBlocks.STEEL_BLOCK.get());
+                pOutput.accept(ModBlocks.ITEM_DUCT.get());
             })
             .build());
 

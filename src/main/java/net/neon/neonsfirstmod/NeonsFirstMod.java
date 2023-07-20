@@ -2,9 +2,7 @@ package net.neon.neonsfirstmod;
 
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
-import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.neon.neonsfirstmod.block.ModBlocks;
 import net.neon.neonsfirstmod.item.ModCreativeModeTabs;
@@ -25,6 +23,6 @@ public class NeonsFirstMod {
 
         MinecraftForge.EVENT_BUS.register(this);
 
-        ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, Config.SPEC); 
+        // ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, Config.SPEC); 
     }
 }

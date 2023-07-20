@@ -1,6 +1,7 @@
 package net.neon.neonsfirstmod.block;
 
 import net.neon.neonsfirstmod.NeonsFirstMod;
+import net.neon.neonsfirstmod.block.custom.ItemDuctBlock;
 import net.neon.neonsfirstmod.item.ModItems;
 
 import java.util.function.Supplier;
@@ -24,6 +25,8 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
     public static final RegistryObject<Block> REINFORCED_GLASS = registerBlock("reinforced_glass",
             () -> new GlassBlock(BlockBehaviour.Properties.copy(Blocks.GLASS)));
+            public static final RegistryObject<Block> ITEM_DUCT = registerBlock("item_duct",
+            () -> new ItemDuctBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion()));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
