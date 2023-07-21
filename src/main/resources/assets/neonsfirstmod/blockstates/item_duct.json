@@ -1,5 +1,51 @@
 {
     "variants": { 
-        "": {"model": "neonsfirstmod:block/item_duct"}
+        "input_direction=south,output_direction=north": {"model": "neonsfirstmod:block/item_duct"},
+        "input_direction=north,output_direction=south": {"model": "neonsfirstmod:block/item_duct"},
+
+        "input_direction=west,output_direction=east": {"model": "neonsfirstmod:block/item_duct", "y": 90},
+        "input_direction=east,output_direction=west": {"model": "neonsfirstmod:block/item_duct", "y": 90},
+
+        "input_direction=down,output_direction=up": {"model": "neonsfirstmod:block/item_duct", "x": 90},
+        "input_direction=up,output_direction=down": {"model": "neonsfirstmod:block/item_duct", "x": 90},
+
+
+        "input_direction=down,output_direction=north": {"model": "neonsfirstmod:block/item_duct_corner", "y": 270},
+        "input_direction=north,output_direction=down": {"model": "neonsfirstmod:block/item_duct_corner", "y": 270},
+
+        "input_direction=down,output_direction=east": {"model": "neonsfirstmod:block/item_duct_corner"},
+        "input_direction=east,output_direction=down": {"model": "neonsfirstmod:block/item_duct_corner"},
+
+        "input_direction=down,output_direction=south": {"model": "neonsfirstmod:block/item_duct_corner", "y": 90},
+        "input_direction=south,output_direction=down": {"model": "neonsfirstmod:block/item_duct_corner", "y": 90},
+
+        "input_direction=down,output_direction=west": {"model": "neonsfirstmod:block/item_duct_corner", "y": 180},
+        "input_direction=west,output_direction=down": {"model": "neonsfirstmod:block/item_duct_corner", "y": 180},
+
+
+        "input_direction=up,output_direction=north": {"model": "neonsfirstmod:block/item_duct_corner", "x": 180, "y": 270},
+        "input_direction=north,output_direction=up": {"model": "neonsfirstmod:block/item_duct_corner", "x": 180, "y": 270},
+
+        "input_direction=up,output_direction=east": {"model": "neonsfirstmod:block/item_duct_corner", "x": 180},
+        "input_direction=east,output_direction=up": {"model": "neonsfirstmod:block/item_duct_corner", "x": 180},
+
+        "input_direction=up,output_direction=south": {"model": "neonsfirstmod:block/item_duct_corner", "x": 180, "y": 90},
+        "input_direction=south,output_direction=up": {"model": "neonsfirstmod:block/item_duct_corner", "x": 180, "y": 90},
+
+        "input_direction=up,output_direction=west": {"model": "neonsfirstmod:block/item_duct_corner", "x": 180, "y": 180},
+        "input_direction=west,output_direction=up": {"model": "neonsfirstmod:block/item_duct_corner", "x": 180, "y": 180},
+
+
+        "input_direction=north,output_direction=east": {"model": "neonsfirstmod:block/item_duct_corner", "x": 90, "y": 270},
+        "input_direction=east,output_direction=north": {"model": "neonsfirstmod:block/item_duct_corner", "x": 90, "y": 270},
+
+        "input_direction=east,output_direction=south": {"model": "neonsfirstmod:block/item_duct_corner", "x": 90},
+        "input_direction=south,output_direction=east": {"model": "neonsfirstmod:block/item_duct_corner", "x": 90},
+
+        "input_direction=south,output_direction=west": {"model": "neonsfirstmod:block/item_duct_corner", "x": 90, "y": 90},
+        "input_direction=west,output_direction=south": {"model": "neonsfirstmod:block/item_duct_corner", "x": 90, "y": 90},
+
+        "input_direction=west,output_direction=north": {"model": "neonsfirstmod:block/item_duct_corner", "x": 90, "y": 180},
+        "input_direction=north,output_direction=west": {"model": "neonsfirstmod:block/item_duct_corner", "x": 90, "y": 180}
     }
 }
